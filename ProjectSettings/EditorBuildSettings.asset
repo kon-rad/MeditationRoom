@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/meditationRoom.unity
     guid: 90736155f34fd423eb5efc5468785ae6
+  - enabled: 1
+    path: Assets/__core/Scenes/MeditationRoomScene.unity
+    guid: 027ec02af461847b0adad3bd153dcdbe
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ae66acba7b73446489190ba347c61ef3, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7342bad02a9e742ab8cdd47f2afbfe61, type: 2}

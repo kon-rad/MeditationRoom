@@ -2,6 +2,7 @@
 /*/
 
 !.gitignore
-!/Assets/
+!/Assets/__core
+!/Assets/_modules/
 !/ProjectSettings/
 !README.md
