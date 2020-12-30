@@ -1,8 +1,9 @@
 /*
-/*/
 
 !.gitignore
-!/Assets/__core
-!/Assets/_modules/
-!/ProjectSettings/
+!Assets/
+Assets/*
+!Assets/__core
+!Assets/__modules
+!ProjectSettings/
 !README.md
