@@ -12,6 +12,7 @@ public class ZenTimer : MonoBehaviour
     private float Timer = 600;
     private float TimerDuration = 600;
     public AudioSource singingBowlStrike;
+    private bool initSound = false;
 
     // Update is called once per frame
     void Update()
@@ -36,7 +37,11 @@ public class ZenTimer : MonoBehaviour
     {
         if (!isRunning)
         {
-            playStartSound();
+            if (!initSound) {
+                initSound = true;
+            } else {
+                playStartSound();
+            }
         }
         StartStopButtonText.text = isRunning ? "Start" : "Pause";
         isRunning = !isRunning;
